@@ -1,0 +1,163 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>意見與回饋</title>
+    <style>
+        div.inside {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 600px;
+            height: 600px;
+
+
+        }
+
+        table {
+            width: 60%;
+            height: 60%;
+            border: 1px solid black;
+
+        }
+
+        td {
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        input.button {
+            background-color: brown;
+            padding: 30px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            color: white;
+        }
+
+        input.area {
+            width: 80%;
+
+        }
+
+
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+        }
+
+        li {
+            float: left;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+
+        .lef{
+            background-color: yellow;
+            float:left;
+        }
+        .rig{
+            background-color: blue;
+            float:right;
+        }
+        .top{
+
+            margin:10px 0;
+
+
+        }
+        .mid img{
+            width: 17%;
+            margin-top: 18px;
+            margin-left:18px ;
+            margin-right:18px ;
+        }
+        #buttom {
+
+            margin:0px auto;
+            column-count: 6;
+            column-rule: 0.5px dashed gray;
+            width: 70%;
+
+        }
+        #buttom img{
+            width: 100%;
+            float: left;
+        }
+        .src{
+            width: 100%;
+
+
+        }
+        .src p{
+
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+<ul>
+        <li><a  href="main.html">首頁</a></li>
+        <li><a  href="facility.html">器材介紹</a></li>
+        <li><a href="media.html">影音特輯</a></li>
+        <li><a href="member.html">成員介紹</a></li>
+        <li style="float: right;"><a href="form.html">Contact US!</a></li>
+    </ul>
+  
+ 
+  <center>
+   <br><br><br>
+    <form method="POST" action="mailto:abc@mail.com.tw?subject=意見回饋" enctype="text/plain" >
+        <div id="inside">
+            <table>
+                <caption>意見與回饋</caption>
+                <tr>
+                    <td><input class="area" type="text" placeholder="姓名" name="name"></td>
+                </tr>
+                <tr>
+                    <td><input class="area" type="text" placeholder="電子信箱" name="email"></td>
+                </tr>
+                <tr>
+                    <td>性別 男<input type="radio" name="gender" value="male" checked> 女<input type="radio" name="gender"
+                            value="female"></td>
+                </tr>
+                <tr>
+                    <td><textarea name="option" id="" cols="80%" rows="20%" placeholder="有什麼要跟我們說呢~"></textarea></td>
+                </tr>
+                <td><input class="button" type="submit" value="送出">
+                    <input class="button" type="reset" value="重填"></td>
+            </table>
+        </div>
+    </form>
+    </center>
+</body>
+
+</html>

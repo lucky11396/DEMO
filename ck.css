@@ -1,0 +1,97 @@
+﻿ body {
+     background-image: url("images/bg1.jpg");
+     background-color: black;
+     background-size: cover;
+ }
+
+ }
+
+ .navbar {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 999;
+ }
+
+ hr {
+     display: ;
+     width: 100%;
+ }
+
+ .image {
+     width: 150px;
+     height: 250px;
+
+ }
+
+ caption {
+     font-size: 200px;
+ }
+
+ table {
+     width: 80%;
+     background-color: #E6CCCC;
+     font-family: 微軟正黑體;
+     font-size: 20px;
+ }
+
+ tr,
+ td {
+     text-align: left;
+ }
+
+
+ h1 {
+     padding-left: 100px;
+ }
+
+ .top {
+     margin: 10px 0;
+ }
+
+ .mid img {
+     width: 17%;
+     margin-top: 18px;
+     margin-left: 18px;
+     margin-right: 18px;
+ }
+
+ #buttom {
+     margin: 0px auto;
+     column-count: 6;
+     column-rule: 0.5px dashed gray;
+     width: 70%;
+ }
+
+ #buttom img {
+     width: 100%;
+     float: left;
+ }
+
+ .mid img {
+     width: 17%;
+     margin-top: 18px;
+     margin-left: 18px;
+     margin-right: 18px;
+ }
+
+ .midt {
+     width: 800px;
+     height: 400px;
+
+     margin: 0px auto;
+     font-family: 標楷體;
+     font-size: 32pt;
+ }
+ }
+
+ .src p {}
+
+ hr {
+     margin: 30px;
+ }
+
+ img.poi {
+     float: left;
+     margin-right: 30px;
+ }
